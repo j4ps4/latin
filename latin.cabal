@@ -1,10 +1,9 @@
-name:                latin-project
+name:                latin
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
 homepage:            https://github.com/githubuser/latin-project#readme
 license:             BSD3
-license-file:        LICENSE
 author:              Author name here
 maintainer:          example@example.com
 copyright:           2016 Author name here
@@ -30,11 +29,8 @@ executable latin
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
-                     , latin-project
+                     , latin
                      , optparse-applicative
                      , ansi-terminal
   default-language:    Haskell2010
 
-source-repository head
-  type:     git
-  location: https://github.com/githubuser/latin-project
